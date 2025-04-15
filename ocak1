@@ -1,0 +1,14 @@
+ad = input("Adınızı girin: ")
+yas = int(input("Yaşınızı girin: "))
+dogum_yili = int(input("Doğum yılınızı girin: "))
+print("Merhaba", ad + "!", str(yas), "yaşındasın ve", str(dogum_yili), "yılında doğmuşsun.")
+
+sayi1 = float(input("Birinci sayıyı girin: "))
+sayi2 = float(input("İkinci sayıyı girin: "))
+print("Toplam:", sayi1 + sayi2)
+print("Fark:", sayi1 - sayi2)
+print("Çarpım:", sayi1 * sayi2)
+if sayi2 != 0:
+    print("Bölüm:", sayi1 / sayi2)
+else:
+    print("Bölüm: Tanımsız")
